@@ -1,12 +1,12 @@
 {
-  "name": "simply",
-  "description": "simply theme for ghost by @GodoFredoNinja",
+  "name": "simply-theme",
+  "description": "fork of simply theme for ghost by @GodoFredoNinja",
   "demo": "https://godofredo.ninja",
   "version": "0.4.0",
   "engines": {
     "ghost": ">=5.0.0"
   },
-  "license": "GPL-3.0-or-later",
+  "license": "GPL-3.0",
   "screenshots": {
     "desktop": "screenshot.jpg"
   },
@@ -31,10 +31,10 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/godofredoninja/simply"
+    "url": "https://github.com/sredevopsorg/simply-theme"
   },
   "bugs": {
-    "url": "https://github.com/godofredoninja/simply/issues",
+    "url": "https://github.com/sredevopsorg/simply-theme/issues",
     "email": "hello@godofredo.ninja"
   },
   "config": {
@@ -182,11 +182,11 @@
     "lint": "yarn lint:js && yarn lint:css",
     "test": "yarn lint && gscan .",
     "scan": "gscan .",
-    "deploy": "gulp deploy"    
+    "deploy": "gulp deploy"
   },
   "devDependencies": {
-    "@babel/core": "^7.18.6",
-    "@babel/plugin-transform-runtime": "^7.18.6",
+    "@babel/core": "^7.24.9",
+    "@babel/plugin-transform-runtime": "^7.24.7",
     "@babel/preset-env": "^7.18.6",
     "@babel/runtime": "^7.18.6",
     "@tailwindcss/line-clamp": "^0.4.0",
@@ -200,39 +200,38 @@
     "cssnano": "^5.1.12",
     "cssnano-preset-advanced": "^5.3.8",
     "del": "^6.1.1",
-    "dotenv": "^16.0.3",    
-    "gscan": "^4.31.2",
-    "gulp": "^4.0.2",
+    "dotenv": "16.4.5",
+    "gulp": "5.0.0",
     "gulp-header": "^2.0.9",
     "gulp-if": "^3.0.0",
     "gulp-livereload": "^4.0.2",
-    "gulp-postcss": "^9.0.1",
+    "gulp-postcss": "10.0.0",
     "gulp-rename": "^2.0.0",
-    "gulp-replace": "^1.1.3",
+    "gulp-replace": "^1.1.4",
     "gulp-sourcemaps": "^3.0.0",
-    "gulp-strip-comments": "^2.5.2",
+    "gulp-strip-comments": "2.6.0",
     "gulp-uglify": "^3.0.2",
-    "gulp-zip": "^5.1.0",
+    "gulp-zip": "6.0.0",
     "merge-stream": "^2.0.0",
-    "postcss": "^8.4.14",
-    "postcss-discard-comments": "^5.1.2",
-    "postcss-extend": "^1.0.5",
-    "postcss-import": "^15.1.0",
-    "postcss-nested": "^6.0.0",
+    "postcss": "^8.4.39",
+    "postcss-discard-comments": "7.0.1",
+    "postcss-extend": "1.0.5",
+    "postcss-import": "16.1.0",
+    "postcss-nested": "^6.0.1",
     "precss": "^4.0.0",
     "pump": "^3.0.0",
-    "standard": "^17.0.0",
-    "stylelint": "^14.9.1",
-    "stylelint-config-recommended": "^9.0.0",
+    "standard": "^17.1.0",
+    "stylelint": "16.7.0",
+    "stylelint-config-recommended": "14.0.1",
     "vinyl-buffer": "^1.0.1",
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
     "infinite-scroll": "^4.0.1",
     "lazysizes": "^5.3.2",
-    "medium-zoom": "^1.0.6",
+    "medium-zoom": "^1.1.0",
     "normalize.css": "^8.0.1",
-    "prismjs": "^1.28.0",
-    "tailwindcss": "^3.1.6"
+    "prismjs": "^1.29.0",
+    "tailwindcss": "^3.4.5"
   }
 }

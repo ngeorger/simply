@@ -9,7 +9,7 @@ const replace = require('gulp-replace')
 const livereload = require('gulp-livereload')
 const beeper = require('beeper')
 const postcss = require('gulp-postcss')
-const zip = require('gulp-zip')
+// const zip = require('gulp-zip')
 const gulpif = require('gulp-if')
 const sourcemaps = require('gulp-sourcemaps')
 const header = require('gulp-header')
@@ -167,27 +167,27 @@ function copyMainStyle (done) {
 }
 
 // ZIP
-function zipper (done) {
-  const filename = `${name}-v${version}.zip`
+// function zipper (done) {
+//   const filename = `${name}-v${version}.zip`
 
-  pump([
-    src([
-      'assets/**',
-      'locales/*.json',
-      '*.hbs',
-      'partials/**',
-      'podcast/**',      
-      'LICENSE',
-      'package.json',
-      'README.md',
-      '!node_modules', '!node_modules/**',
-      '!dist', '!dist/**',
-      '!src', '!src/**'
-    ], { base: '.' }),
-    zip(filename),
-    dest('dist')
-  ], handleError(done))
-}
+//   pump([
+//     src([
+//       'assets/**',
+//       'locales/*.json',
+//       '*.hbs',
+//       'partials/**',
+//       'podcast/**',
+//       'LICENSE',
+//       'package.json',
+//       'README.md',
+//       '!node_modules', '!node_modules/**',
+//       '!dist', '!dist/**',
+//       '!src', '!src/**'
+//     ], { base: '.' }),
+//     zip(filename),
+//     dest('dist')
+//   ], handleError(done))
+// }
 
 
 
@@ -210,8 +210,8 @@ async function deploy (done) {
     console.log('name =', themeName)
     const apiVersion = process.env.API_VERSION || require('./package.json').engines['ghost-api']
     console.log(apiVersion)
-    const zipFile = `./dist/${themeName}-v${version}.zip`
-    console.log('zip = ', zipFile)
+    // const zipFile = `./dist/${themeName}-v${version}.zip`
+    // console.log('zip = ', zipFile)
 
     const api = new GhostAdminApi({
       url,
@@ -241,7 +241,7 @@ const compile = parallel(styles, scripts, images)
 const watcher = parallel(cssWatcher, jsWatcher, imgWatcher, hbsWatcher)
 
 const build = series(clean, compile)
-const production = series(build, copyAmpStyle, copyMainStyle, zipper)
+const production = series(build, copyAmpStyle, copyMainStyle)
 // const production = series(build)
 const development = series(build, serve, watcher)
 

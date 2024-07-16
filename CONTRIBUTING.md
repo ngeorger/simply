@@ -8,7 +8,7 @@ Simply uses [Gulp](https://gulpjs.com/) as a build tool and [Yarn](https://yarnp
 
 ```bash
 # clone this repo
-$ git clone https://github.com/godofredoninja/simply.git
+$ git clone https://github.com/sredevopsorg/simply-theme.git
 
 # Go to the folder
 $ cd simply
@@ -58,7 +58,7 @@ This is our preferred process for opening a PR on GitHub:
     cd simply
 
     # Assign the original repo to a remote called "upstream"
-    git remote add upstream https://github.com/godofredoninja/simply.git
+    git remote add upstream https://github.com/sredevopsorg/simply-theme.git
     ```
 
 2. If you cloned a while ago, get the latest changes from upstream:

@@ -196,7 +196,7 @@ In this block of `HTML` add the icons, the icons will be displayed on the right 
     </a>
 
     <a
-        href="https://github.com/godofredoninja/simply"
+        href="https://github.com/sredevopsorg/simply-theme"
         title="GitHub"
         class="hover:text-github p-2 inline-block"
         target="_blank"

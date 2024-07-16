@@ -9,7 +9,7 @@
     ·
     <a href="https://godofredo.ninja/ghost-theme/showcase/">Showcase</a>
     ·
-    <a href="https://github.com/godofredoninja/simply/graphs/contributors">Contributing</a>
+    <a href="https://github.com/sredevopsorg/simply-theme/graphs/contributors">Contributing</a>
     ·
     <a href="https://www.paypal.me/godofredoninja">PayPal</a>
     ·
@@ -191,17 +191,17 @@ You can also incorporate this deploy step in your CICD pipeline if you use any.
 
 ## Contributing
 
-Im always looking for contributors of all skill levels! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/godofredoninja/simply/labels/%F0%9F%8C%B1%20good%20first%20issue).
+Im always looking for contributors of all skill levels! If you're looking to ease your way into the project, try out a [good first issue](https://github.com/sredevopsorg/simply-theme/labels/%F0%9F%8C%B1%20good%20first%20issue).
 
 I greatly appreciate any help in maintaining to keep the documentation up to date. My English is not so good and I am trying to make the documentation more understandable.
 
-If you are interested in collaborating with Simply, take a look at the [Contributing Guide](https://github.com/godofredoninja/simply/blob/master/CONTRIBUTING.md).
+If you are interested in collaborating with Simply, take a look at the [Contributing Guide](https://github.com/sredevopsorg/simply-theme/blob/master/CONTRIBUTING.md).
 
 ### Code Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](https://github.com/godofredoninja/simply/blob/master/CONTRIBUTING.md)].
+This project exists thanks to all the people who contribute. [[Contribute](https://github.com/sredevopsorg/simply-theme/blob/master/CONTRIBUTING.md)].
 
-[![Simply Contributors](https://opencollective.com/simply/contributors.svg?width=890&button=false)](https://github.com/godofredoninja/simply/graphs/contributors)
+[![Simply Contributors](https://opencollective.com/simply/contributors.svg?width=890&button=false)](https://github.com/sredevopsorg/simply-theme/graphs/contributors)
 
 ### Financial Contributors
 

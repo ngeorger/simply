@@ -1,6 +1,6 @@
 # Introduction
 
-**[Simply](https://github.com/godofredoninja/simply)** is a very beautiful and elegant open source theme for [Ghost](https://github.com/TryGhost/Ghost), it is inspired on [Medium](https://medium.com/), for Personal or professional, Portfolio Page, Photography Blog, Lifestyle Blog, Culinary Blog, News Page, Design Blog, and in many other things. **Simply** is very fast 🚀.
+**[Simply](https://github.com/sredevopsorg/simply-theme)** is a very beautiful and elegant open source theme for [Ghost](https://github.com/TryGhost/Ghost), it is inspired on [Medium](https://medium.com/), for Personal or professional, Portfolio Page, Photography Blog, Lifestyle Blog, Culinary Blog, News Page, Design Blog, and in many other things. **Simply** is very fast 🚀.
 
 ## General features
 
@@ -103,7 +103,7 @@
 
 ## How to install
 
-Installing the Simply theme for Ghost is very easy, first [download](https://github.com/godofredoninja/simply/archive/master.zip) the theme.
+Installing the Simply theme for Ghost is very easy, first [download](https://github.com/sredevopsorg/simply-theme/archive/master.zip) the theme.
 
 But if you made changes to the theme files, you need to create a **zip** file.
 
